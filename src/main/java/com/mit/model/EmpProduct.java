@@ -1,9 +1,15 @@
 package com.mit.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 /**
  * @author Siddik
  *
  */
+
+@Entity
+@Table(name = "EmpProduct")
 public class EmpProduct {
 	
 	private int eid;
